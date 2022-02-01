@@ -1,5 +1,5 @@
 {
-      "mode": "Microsoft.ContainerService.Data",
+      "mode": "Microsoft.Kubernetes.Data",
 
       "parameters": {
         "effect": {
