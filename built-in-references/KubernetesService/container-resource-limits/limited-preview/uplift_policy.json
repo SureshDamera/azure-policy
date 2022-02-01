@@ -24,11 +24,8 @@
         "then": {
           "effect": "[parameters('effect')]",
           "details": {
-            "constraintTemplate": "https://raw.githubusercontent.com/Azure/azure-policy/master/built-in-references/KubernetesService/container-resource-limits/limited-preview/gatekeeperpolicy.rego"
+            "constraintTemplate": "https://raw.githubusercontent.com/SureshDamera/azure-policy/master/built-in-references/KubernetesService/container-resource-limits/limited-preview/uplift_rego.yaml"
           }
         }
       }
-    },
-    "id": "/providers/Microsoft.Authorization/policyDefinitions/a2d3ed81-8d11-4079-80a5-1faadc0024f4",
-    "name": "a2d3ed81-8d11-4079-80a5-1faadc0024f4"
   }
